@@ -1,0 +1,11 @@
+nav {
+    background-color: var(--primary-color);
+}
+
+nav a {
+    color: #FFF;
+}
+
+nav a.active {
+    color: #FFF;
+}

@@ -1,0 +1,23 @@
+<div id="login">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-11 col-lg-8 card_login">
+                <div class="row">
+                    <div class="col-lg-6 position-relative">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h3>CRUD Users</h3>
+
+                        <h5 class="my-5">Login</h5>
+    
+                        <label class="form-label" for="nome">Nome</label>
+                        <input [(ngModel)]="userName" type="text" id="nome" placeholder="Digite seu nome" class="input-form">
+
+                        <app-botao textButton="Entrar" (click)="login()" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

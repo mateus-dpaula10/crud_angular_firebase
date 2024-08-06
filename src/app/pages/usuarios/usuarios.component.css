@@ -1,0 +1,33 @@
+.card-info {
+    background-color: #fafafa;
+    padding: 14px 18px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 3px 1px #0a0a0a20;
+}
+
+.titulo {
+    font-weight: 500;
+    padding: 0;
+    margin: 0 !important;
+    color: var(--primary-color);
+}
+
+.subtitulo {
+    font-weight: 300;
+    margin: 0;
+    padding: 26px 0 14px;
+    color: var(--gray-color);
+}
+
+.icone-tabela {
+    color: #767676;
+    margin-right: 10px;
+    transform: rotate(0deg);
+    transition: .3s linear all;
+}
+
+.icone-tabela:hover {
+    cursor: pointer;
+    color: var(--primary-color);
+    transform: rotate(359deg);
+}

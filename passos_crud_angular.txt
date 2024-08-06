@@ -1,0 +1,10 @@
+npm install -g @angular/cli
+ng new projeto --no-standalone 
+
+ng 
+
+npm install firebase
+ng g environments
+ng add @angular/fire
+import { AngularFireModule } from '@angular/fire/compat'
+em app module imports: AngularFireModule.initializeApp(environment.firebaseConfig)

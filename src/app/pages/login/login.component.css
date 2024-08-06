@@ -1,0 +1,56 @@
+#login {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card_login {
+    box-shadow: 0 0 4px 1px #00000020;
+    border-radius: .375rem;
+    overflow: hidden;
+}
+
+.card_login .row div:nth-of-type(2) {
+    padding: 6rem 3rem;
+}
+
+.card_login .row div:nth-of-type(2) h3 {
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.card_login .row div:nth-of-type(2) h5 {
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.bg {
+    position: absolute;
+    inset: 0;
+    background-image: url('../../../assets/background-login.png');
+    background-size: cover;
+    background-position: top left;
+    z-index: -1;
+}
+
+@media (max-width: 992px) {
+    .card_login .row div:nth-of-type(1) {
+        height: 3rem;
+    }
+
+    .card_login .row div:nth-of-type(2) {
+        padding: 2rem;
+    }
+}
+
+.input-form {
+    outline: none;
+    padding: 8px 10px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #00000000;
+    margin-bottom: 32px;
+    transition: .3s linear all;
+    box-shadow: inset 1px 1px 2px #babc80, inset -1px -1px 2px #d8d8b0;
+}
